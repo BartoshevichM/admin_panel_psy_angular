@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Admin Panel</span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">exit_to_app</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container class="side-container">
+  <mat-sidenav mode="side" opened>
+    <div class="side-menu">
+      <button mat-button>Schedule</button>
+      <button mat-button>Publications</button>
+      <button mat-button>Tests</button>
+      <button mat-button>Clients</button>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-schedule></app-schedule>
+  </mat-sidenav-content>
+</mat-sidenav-container>
